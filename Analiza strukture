@@ -1,0 +1,17 @@
+Reference
+    sa kraja knjige
+        Regex
+            /</a>[vilcx]+<span/g
+        primer 
+
+        opis
+            Obicno se nalaze iza a taga sa href #bookmark\d\d i span rimski brojevi koji nisu linkovi, linkovi su obicno tekst od pocetka <p> taga. Mogu da se nadju i u potpunosti u a tagu obicno ka su na kraju paragrafa mozda je bolji Regex />[vilcx]+</
+    na kraju strane
+        Regex
+            </a>\d+<span
+        primer
+                    "html": "<a href=\"#bookmark1\" style=\" color: black; font-family:'Times New Roman', serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt;\">je imala mahovinaste zube, a niz bradu joj je curio crni sok od betela</a>2<span class=\"p\">.</span>"  
+        opis
+            isto kao kod kraja knjige samo su u pitanju arapski brojevi a linkovi su manji deo teksta
+
+            
